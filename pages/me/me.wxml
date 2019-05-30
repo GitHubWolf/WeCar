@@ -1,0 +1,10 @@
+<!--pages/me/me.wxml-->
+<view class="pagebody">
+  <scroll-view>
+    <view class='profile_item'>First Name: Neil</view>
+    <view class='profile_item'>Last Name: Chen</view>
+    <view class='profile_item'>Phone: 86-13426459968</view>
+    <view class='profile_item'>E-mail:GreatChinaWolf@126.com</view>
+    <view class='profile_item'>Address: Beijing, China</view>
+  </scroll-view>
+</view>

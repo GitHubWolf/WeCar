@@ -1,0 +1,32 @@
+<!--index.wxml-->
+
+<view class="pagebody">
+  <scroll-view>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <view class='image_view'>
+            <image src="{{item}}" mode="widthFix" class='slider_image'>
+            </image>
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+
+    <view class="entry_items">
+      <navigator wx:for="{{items}}" wx:key="id" url="{{url}}?listId={{item.id}}&listName={{item.text}}">
+        <view class="entry_item">
+          <image class="entry_image" src="{{item.src}}" mode="aspectFit"></image>
+          <text class="entry_text">{{item.text}}</text>
+        </view>
+      </navigator>
+    </view>
+
+    <view class='news'>
+      <view class='news_item'>New start at Daimler in China: 2555 days in the Middle Kingdom</view>
+      <view class='news_item'>A new podcast: Time travel through the Mercedes-Benz classic cars collection</view>
+      <view class='news_item'>A fan says goodbye: Servus Niki</view>
+      <view class='news_item'>“Taking off” in the EQC</view>
+    </view>
+  </scroll-view>
+</view>

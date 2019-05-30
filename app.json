@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/service/service",
+    "pages/activity/activity",
+    "pages/me/me"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#35495e",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "WeCar",
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "home",
+        "iconPath": "pages/pictures/logo2.png",
+        "selectedIconPath": "pages/pictures/logo.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "product",
+        "iconPath": "pages/pictures/product2.jpg",
+        "selectedIconPath": "pages/pictures/product.jpg"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "text": "service",
+        "iconPath": "pages/pictures/service2.jpg",
+        "selectedIconPath": "pages/pictures/service.jpg"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "activity",
+        "iconPath": "pages/pictures/activity2.jpg",
+        "selectedIconPath": "pages/pictures/activity.jpg"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "me",
+        "iconPath": "pages/pictures/user2.png",
+        "selectedIconPath": "pages/pictures/user.png"
+      }
+    ]
+  }
+}
